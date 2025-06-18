@@ -8,8 +8,8 @@ plugins {
 android {
     namespace = "com.example.contri"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
-
+//    ndkVersion = flutter.ndkVersion
+    ndkVersion = "29.0.13599879"
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
